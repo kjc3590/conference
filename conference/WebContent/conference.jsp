@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <html lang="UTF-8">
@@ -83,35 +84,35 @@
 		<p><b>주소 :</b>충청북도 청주시 흥덕구 오송읍 연제리 682-1 베스티안병원 7층 대강당</p>
 		<p><b>셔틀버스 운영 안내 :</b>8시 30분 베스티안 서울병원(한티역 근처) ~ 오송병원 왕복 운영(9.20일까지 사전신청자에 한함) </p>
 		
-		<div class="buttonWrapper"><button type="button">컨퍼런스 사전신청하기</button></div>
+		<div class="buttonWrapper">
+			<button type="button" onclick="location.href='/conferenceInsert.jsp' ">컨퍼런스 사전신청하기</button>
+		</div>
 	</div>
 	</section>
 	
 	<section class="check">
+	
 		<div class="container">
-		<h2 class="titleH">사전등록 확인</h2>
-		
-		<div class="confirm">
-		<p>ㆍ사전등록 확인을 위해 신청자 정보를 입력해주시기 바랍니다.</p>
-		
-		<div class="confirmArticle">
-		<label>성명</label><input class="">
-		</div>
-		
-		<div class="confirmArticle">
-		<label>연락처</label><input class="">
-			
-		</div>
-		
-		</div>
-		
-		<div class="buttonWrapper"><button type="button">확인</button></div>
-		
-		
-		
+			<h2 class="titleH">사전등록 확인</h2>
+			<form id="frm" method="post">
+				<div class="confirm">
+					<p>ㆍ사전등록 확인을 위해 신청자 정보를 입력해주시기 바랍니다.</p>
+					<div class="confirmArticle">
+						<label>성명</label>
+						<input type="text" name="confe_name" id="confe_name">
+					</div>
+					<div class="confirmArticle">
+						<label>연락처</label>
+						<input type="text" name="confe_phone" id="confe_phone" maxlength="13" size="13" onkeydown="return fn_onlyNumber(event)" onkeyup="removeChar(event)">
+					</div>
+				</div>
+			</form>
+			<div class="buttonWrapper">
+				<button id="submit" type="button">확인</button>
+			</div>
 		</div>
 	</section>
-	<footer>
+		<footer>
 		<div class="container">
 		<div class="footerLeft">
 			<img class="" src="/assets/images/footerLogo.png">
@@ -125,14 +126,32 @@
 
 	</footer>
 
-
-
-
-
 	<script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/check.js"></script>
 
-
+	<script>
+		 $('#submit').on('click', function(){
+			 
+			 console.log("클릭 : 클릭")
+			 		 
+			 var confe_name = $('#confe_name').val();
+			 var confe_phone = $('#confe_phone').val();
+			 
+			 if(isEmpty(confe_name)){
+				alert("성함을 입력해주세요.");
+				$('#confe_name').focus();
+				return false;
+			}
+			if(isEmpty(confe_phone) || confe_phone.length < 12){
+				alert("전화번호을 입력해주세요.");
+				$('#confe_phone').focus();
+				return false;
+			}
+			
+			$("#frm").attr("action", "/util/confirmUtil.jsp").submit();
+		});
+	</script>
 
 
 	<script>
@@ -145,4 +164,5 @@
 		});
 	</script>
 </body>
+>>>>>>> refs/remotes/origin/master
 </html>

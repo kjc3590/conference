@@ -30,7 +30,7 @@
 %>
 		<script>
 			alert("신청 성공");
-			history.go(-1);
+			location.href='/conference.jsp';
 		</script>	
 <%
 	}catch(Exception ex){

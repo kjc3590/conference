@@ -10,7 +10,7 @@
 
 	<form action ="/util/confirmUtil.jsp" method="post">
 		<input type="text" name="confe_name">
-		<input type="text" name="confe_phone">
+		<input type="text" name="confe_phone" maxlength="13" size="13" onkeydown="return fn_onlyNumber(event)" onkeyup="removeChar(event)">
 		<input type="submit" value="전송">
 	</form>
 	

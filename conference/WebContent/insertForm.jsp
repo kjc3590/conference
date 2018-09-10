@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action ="/JoinUtil.jsp" method="post">
+	<form action ="/util/JoinUtil.jsp" method="post">
 		<input type="text" name="confe_name">
 		<input type="text" name="confe_affiliation">
 		<input type="text" name="confe_position">

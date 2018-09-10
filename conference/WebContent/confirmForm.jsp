@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action ="/confirm.jsp" method="post">
+	<form action ="/util/confirm.jsp" method="post">
 		<input type="text" name="confe_name">
 		<input type="text" name="confe_phone">
 		<input type="submit" value="전송">

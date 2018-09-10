@@ -227,6 +227,9 @@ section.map .imgWrapper img {
 }
 
 
+section.map p {color: #8a8a8a;font-weight: 400;}
+
+
 section.check {
 	background: #f9f9f9;
 }
@@ -408,6 +411,141 @@ section.joinform .formLow .rowArticle p input.big {
 section.joinform .formLow .rowArticle p span {margin: 0 4.5px;}
 
 
+.result h2.titleH {
+	
+padding: 0px 12.5px 50px 12.5px;
+	
+border-bottom: 1.6px solid #d6d6d6;
+	
+color: darkslategray;
+	
+font-size: 25px;
+	
+margin-bottom: 0;
+	
+	font-weight:bold;
+
+
+} 
+
+
+.result h2.titleH.center {
+	text-align:center;	
+	font-weight: 400 !important;
+}
+.result h2.titleH b {
+
+font-weight: bold;
+}
+
+
+/*  */
+
+
+section.result .formLow {
+	
+}
+
+section.result .formLow .rowArticle {
+	border-bottom: 1.2px solid #d6d6d6;
+}
+
+section.result .formLow .rowArticle label {
+	FLOAT: LEFT;
+	width: 155px;
+	font-size: 17px;
+	text-align: center;
+	BACKGROUND: #f7f7f7;
+	margin-bottom: 0;
+	line-height: 54px;
+	border-right: 1.2px solid #d6d6d6;
+}
+
+
+section.result .formLow .rowArticle p {
+	float: left;
+	width: calc(100% - 155px);
+	padding: 0px 25px;
+	margin-bottom: 0;
+	line-height:54px;
+}
+
+section.result .formLow .rowArticle p input {
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	min-width: 250px;
+	padding-left:12.5px;
+}
+
+section.result .buttonwrapper {
+	width:220px;
+}
+
+section.result .buttonwrapper.big {
+	width:290px;	
+}
+
+section.result .formLow .rowArticle p input.big {
+	min-width:450px;
+}
+
+
+section.result .formLow .rowArticle p span {margin: 0 4.5px;}
+
+
+
+section.result .imgWrapper {width: 890px;margin: 75 auto;}
+
+section.result .imgWrapper img {
+	width:100%;
+	height:auto;
+}
+
+
+.result p.map {color: #8a8a8a;font-weight: 400;}
+
+.result p.map b{margin-right: 5px;font-weight: bold;}
+
+
+footer {
+	padding:30px 0 0px;
+	background-color:#494545;
+}
+
+footer:after {
+	clear:both;
+	display:block;
+	content:"";	
+}
+
+footer div {
+	
+}
+
+footer div.footerLeft {
+	text-align:left;
+}
+
+footer div.footerLeft img {
+		
+width: 244px;
+	
+margin-bottom: 10px;
+}
+
+footer div.footerLeft p {
+	   margin-bottom: 1em;
+	  font-size: 15px;
+	  line-height: 1.7;
+	  color: #bdbbbb;
+}
+
+
+
+
+/*  */
+
+
 .consent {
 	padding:0 12.5px;
 	margin:25px 0 85px;
@@ -481,6 +619,10 @@ section.joinform .formLow .rowArticle p span {margin: 0 4.5px;}
 input[type="checkbox"] {
 	display:none;
 }
+
+
+
+
 
 
 

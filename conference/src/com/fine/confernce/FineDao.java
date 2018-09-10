@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -87,7 +86,7 @@ public class FineDao {
 		try {
 			conn = getConnection();
 
-			sql = "insert into confe_info values (?,?,?,?,?) ";
+			sql = "insert into confe_info (confe_affiliation ,confe_position, confe_email ,confe_phone ,confe_name) values (?,?,?,?,?) ";
 
 			pstmt = conn.prepareStatement(sql);
 

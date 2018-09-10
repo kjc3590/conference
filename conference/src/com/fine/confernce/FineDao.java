@@ -66,9 +66,9 @@ public class FineDao {
 			pstmt.setString(1, phone);
 			pstmt.setString(2, name);
 			rs = pstmt.executeQuery();
-
-			count = rs.getInt(1);
-
+			if (rs.next()) {
+	          count = rs.getInt(1);
+	        }
 		}
 		catch (Exception e)  {
 			throw new Exception(e);

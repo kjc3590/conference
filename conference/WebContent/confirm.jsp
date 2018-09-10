@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%@ page import="com.fine.confernce.*"%>
 <%@ page import="java.util.*"%>
 <%@ page import="java.io.IOException"%>
@@ -17,12 +17,21 @@
 
 	FineDao dao = FineDao.getInstance();
 
-	String phone = request.getParameter("phone");
-	String name = request.getParameter("name");
+	String name = request.getParameter("confe_name");
+	String phone = request.getParameter("confe_phone");
 
 	int cnt = dao.confe_confirm(phone , name);
 
+	if(cnt>0){
+		response.getWriter().print("<script>alert('Join Complete.')</script>");
+	}else{
+		response.getWriter().print("<script>alert('Join X.')</script>");
+	}
+
+
 %>
+
+
 
 </body>
 </html>

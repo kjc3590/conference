@@ -19,7 +19,6 @@
 			<div class="imgWrapper">
 				<img class="" src="/assets/images/title.png">
 			</div>
-
 		</div>
 	</section>
 	

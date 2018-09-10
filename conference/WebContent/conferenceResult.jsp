@@ -14,7 +14,103 @@
 <body>
 
 
-	
+	<section class="includeTitle">
+		<div class="container">
+			<div class="imgWrapper">
+				<img class="" src="/assets/images/title.png">
+			</div>
+
+		</div>
+	</section>
+
+	<section class="result">
+		<div class="container">
+
+			<h2 class="titleH center">
+				컨퍼런스 <b>사전신청</b> <b>정보</b>가 <b>없습니다.</b>
+			</h2>
+
+			<div class="formLow">
+				<div class="rowArticle">
+					<label>성명</label>
+					<p>김종찬</p>
+				</div>
+
+				<div class="rowArticle">
+					<label>연락처</label>
+					<p>010-3941-2351</p>
+				</div>
+			</div>
+
+			<div class="buttonWrapper big">
+				<button type="button">컨퍼런스 사전신청하기</button>
+			</div>
+
+
+
+			<h2 class="titleH center">
+				컨퍼런스 <b>사전신청</b>이<b>완료</b>되었습니다.
+			</h2>
+
+			<div class="formLow">
+				<div class="rowArticle">
+					<label>성명</label>
+					<p>김종찬</p>
+				</div>
+				<div class="rowArticle">
+					<label>소속</label>
+					<p>(주)파인인사이트</p>
+				</div>
+				<div class="rowArticle">
+					<label>직위</label>
+					<p>사원</p>
+				</div>
+				<div class="rowArticle">
+					<label>이메일</label>
+					<p>kjc3590@fineinsight.kr</p>
+				</div>
+				<div class="rowArticle">
+					<label>연락처</label>
+					<p>010-3941-2351</p>
+				</div>
+			</div>
+
+			<div class="buttonWrapper">
+				<button type="button">확인</button>
+			</div>
+
+
+			<h2 class="titleH">오시는 길</h2>
+			<div class="imgWrapper">
+				<img class="" src="/assets/images/map.png">
+			</div>
+
+			<p>
+				<b>주소 :</b>충청북도 청주시 흥덕구 오송읍 연제리 682-1 베스티안병원 7층 대강당
+			</p>
+			<p>
+				<b>셔틀버스 운영 안내 :</b>8시 30분 베스티안 서울병원(한티역 근처) ~ 오송병원 왕복 운영(9.20일까지
+				사전신청자에 한함)
+			</p>
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="container">
+		<div class="footerLeft">
+			<img class="" src="/assets/images/footerLogo.png">
+			<p>
+				서울시 강남구 논현로 76길, 꿈희망미래빌딩 4층 / 사업자등록번호 : 220-82-09620<br>대표번호 :
+				02-563-2919 / 팩스 : 02- 568-2952/ E-mail : fineinsight@bestian.kr<br>Copyright
+				2017 ⓒ bestian all rights reserved
+			</p>
+		</div>
+		</div>
+
+	</footer>
+
+
 
 
 

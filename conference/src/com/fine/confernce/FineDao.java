@@ -9,6 +9,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+import com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException;
+
 public class FineDao {
 
 	private static FineDao instance = new FineDao();
@@ -96,8 +98,9 @@ public class FineDao {
 			pstmt.setString(4, vo.getConfe_phone());
 			pstmt.setString(5, vo.getConfe_name());
 			pstmt.executeUpdate();
-		}
-		catch (Exception e) {
+		}catch(MySQLIntegrityConstraintViolationException ex) {
+			throw new MySQLIntegrityConstraintViolationException();
+		}catch (Exception e) {
 			throw new Exception(e);
 		}
 		finally {

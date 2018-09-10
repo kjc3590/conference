@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action ="/util/confirmUtil.jsp" method="post">
+	<form id="submit" method="post">
 		<input type="text" name="confe_name">
 		<input type="text" name="confe_phone" maxlength="13" size="13" onkeydown="return fn_onlyNumber(event)" onkeyup="removeChar(event)">
 		<input type="submit" value="전송">
@@ -16,6 +16,28 @@
 	
 	<script src="assets/js/jquery-3.3.1.js"></script>
 	<script src="assets/js/check.js"></script>
+	
+	<script>
+	$('#submit').on('submit', function(event) {
+		 
+		 var confe_name = $('#confe_name').val();
+		 var confe_phone = $('#confe_phone').val();
+		 
+		 if(isEmpty(confe_name)){
+			alert("성함을 입력해주세요.");
+			$('#confe_name').focus();
+			return false;
+		}
+		if(isEmpty(confe_phone)){
+			alert("전화번호을 입력해주세요.");
+			$('#confe_phone').focus();
+			return false;
+		}
+		
+		$("#submit").attr("action", "/util/confirmUtil.jsp");
+		//$("#submit").submit();
+	});
+	</script>
 
 </body>
 </html>

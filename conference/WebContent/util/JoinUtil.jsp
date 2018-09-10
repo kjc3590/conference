@@ -1,8 +1,12 @@
+<%@page import="com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="com.fine.confernce.*"%>
 <%@ page import="java.util.*"%>
 <%@ page import="java.io.IOException"%>
+<%@ page import="java.sql.SQLException"%>
+<%@ page import="com.mysql.jdbc.exceptions.jdbc4.*"%>
+
 <%
 	request.setCharacterEncoding("UTF-8");
 
@@ -23,20 +27,20 @@
 		vo.setConfe_phone(confe_phone);
 		
 		dao.confe_insert(vo);
-	%>
+%>
 		<script>
 			alert("신청 성공");
 			history.go(-1);
 		</script>	
-	<%
-	}catch(Exception e){
-	%>
+<%
+	}catch(Exception ex){
+%>
 		<script>
-			alert("신청 실패");
+			alert("이미 신청한 핸드폰번호입니다.");
 			history.go(-1);
 		</script>		
-	<%
-	e.printStackTrace();
-
+<%
+		ex.printStackTrace();
 	}
+
 %>

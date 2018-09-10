@@ -508,7 +508,7 @@ section.result .imgWrapper img {
 
 
 footer {
-	padding:30px 0 0px;
+	padding:30px 0;
 	background-color:#494545;
 }
 
@@ -534,7 +534,7 @@ margin-bottom: 10px;
 }
 
 footer div.footerLeft p {
-	   margin-bottom: 1em;
+	   margin-bottom: 0;
 	  font-size: 15px;
 	  line-height: 1.7;
 	  color: #bdbbbb;

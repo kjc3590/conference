@@ -97,6 +97,20 @@
 		</div>
 
 	</section>
+	
+	<footer>
+		<div class="container">
+		<div class="footerLeft">
+			<img class="" src="/assets/images/footerLogo.png">
+			<p>
+				서울시 강남구 논현로 76길, 꿈희망미래빌딩 4층 / 사업자등록번호 : 220-82-09620<br>대표번호 :
+				02-563-2919 / 팩스 : 02- 568-2952/ E-mail : fineinsight@bestian.kr<br>Copyright
+				2017 ⓒ bestian all rights reserved
+			</p>
+		</div>
+		</div>
+
+	</footer>
 
 
 

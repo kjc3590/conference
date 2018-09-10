@@ -18,8 +18,10 @@
 	<script src="assets/js/check.js"></script>
 	
 	<script>
-	$('#submit').on('submit', function(event) {
+	 $('#submit').on('click', function(){
 		 
+		 console.log("클릭 : 클릭")
+		 		 
 		 var confe_name = $('#confe_name').val();
 		 var confe_phone = $('#confe_phone').val();
 		 
@@ -28,14 +30,18 @@
 			$('#confe_name').focus();
 			return false;
 		}
-		if(isEmpty(confe_phone)){
+		if(isEmpty(confe_affiliation)){
+			alert("소속 입력해주세요.");
+			$('#confe_affiliation').focus();
+			return false;
+		}
+		if(isEmpty(confe_phone) || confe_phone.length < 12){
 			alert("전화번호을 입력해주세요.");
 			$('#confe_phone').focus();
 			return false;
 		}
 		
-		$("#submit").attr("action", "/util/confirmUtil.jsp");
-		//$("#submit").submit();
+		$("#frm").attr("action", "/util/confirmUtil.jsp").submit();
 	});
 	</script>
 

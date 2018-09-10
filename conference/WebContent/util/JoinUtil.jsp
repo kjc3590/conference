@@ -29,10 +29,8 @@
 			history.go(-1);
 		</script>	
 	<%
-
-
 	}catch(Exception e){
-		%>
+	%>
 		<script>
 			alert("신청 실패");
 			history.go(-1);

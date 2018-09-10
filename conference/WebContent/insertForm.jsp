@@ -8,14 +8,17 @@
 </head>
 <body>
 
-	<form action ="/util/JoinUtil.jsp" method="post">
+	<form action ="util/JoinUtil.jsp" method="post">
 		<input type="text" name="confe_name">
 		<input type="text" name="confe_affiliation">
 		<input type="text" name="confe_position">
 		<input type="text" name="confe_email">
-		<input type="text" name="confe_phone">
+		<input type="text" name="confe_phone" maxlength="13" size="13" onkeydown="return fn_onlyNumber(event)" onkeyup="removeChar(event)">
 		<input type="submit" value="전송">
 	</form>
-
+	
+	<script src="assets/js/jquery-3.3.1.js"></script>
+	<script src="assets/js/check.js"></script>
+	
 </body>
 </html>

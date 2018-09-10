@@ -20,7 +20,7 @@ public class FineDao {
 	private Connection getConnection() throws Exception {
 		Context initCtx = new InitialContext();
 		DataSource ds = 
-				//				(DataSource)initCtx.lookup("java:comp/env/jdbc/fineinsight");
+				//(DataSource)initCtx.lookup("java:comp/env/jdbc/fineinsight");
 				(DataSource)initCtx.lookup("java:comp/env/jdbc/mysql");
 
 		return ds.getConnection();

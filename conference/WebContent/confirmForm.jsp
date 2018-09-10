@@ -8,11 +8,14 @@
 </head>
 <body>
 
-	<form action ="/util/confirm.jsp" method="post">
+	<form action ="/util/confirmUtil.jsp" method="post">
 		<input type="text" name="confe_name">
 		<input type="text" name="confe_phone">
 		<input type="submit" value="전송">
 	</form>
+	
+	<script src="assets/js/jquery-3.3.1.js"></script>
+	<script src="assets/js/check.js"></script>
 
 </body>
 </html>

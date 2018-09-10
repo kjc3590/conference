@@ -28,10 +28,7 @@
 		response.getWriter().print("<script>alert('Join X.')</script>");
 	}
 
-
 %>
-
-
 
 </body>
 </html>

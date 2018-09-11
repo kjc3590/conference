@@ -188,6 +188,10 @@ section.infomation .container  h2.titleH {
 	section.map p br {
 		display:none;
 	}
+	
+	section.result p.mapInfo br {
+		display:none;
+	}
 
 p.join br {
 	display:none;	
@@ -195,6 +199,10 @@ p.join br {
 
 section.check .confirm p br {
 	display:none;	
+}
+
+.result h2.titleH:last-of-type {
+	padding:0px 12.5px 23px 12.5px;
 }
 
 .divRight p span {font-size: 14.5px;margin-right: 10px;}
@@ -215,9 +223,9 @@ section.map {
 
 
 
-section.map p {color: #8a8a8a;font-weight: 400;}
+section.map p , section.result p.mapInfo {color: #8a8a8a;font-weight: 400;}
 
-section.map p b{margin-right: 5px;font-weight: bold;}
+section.map p b , section.result p.mapInfo b {margin-right: 5px;font-weight: bold;}
 
 
 .buttonWrapper {width: 300px;margin: 75px auto;}
@@ -261,7 +269,7 @@ section.map .imgWrapper img {
 }
 
 
-section.map p {color: #8a8a8a;font-weight: 400;}
+
 
 
 section.check {
@@ -541,6 +549,14 @@ section.result .imgWrapper img {
 
 .result p.map b{margin-right: 5px;font-weight: bold;}
 
+section.joinform .formFloat div p br {
+		display:none;
+	}
+section.joinform .formFloat div h2 br {
+		display:none;
+	
+}
+
 
 footer {
 	padding:30px 0;
@@ -645,10 +661,11 @@ footer div.footerLeft p {
 	display:none;
 }
 
-.consent label>span:last-child {
+.consent label > p {
 	margin-left:35px;
 	font-size: 17.5px;
 	line-height: 24px;
+	float:left;
 }
 
 input[type="checkbox"] {

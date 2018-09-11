@@ -35,16 +35,16 @@
 
 			<div class="formFloat">
 				<div class="left">
-					<h2>수집ㆍ이용 항목</h2>
-					<p>성명,소속,직위,연락처,이메일</p>
+					<h2>수집ㆍ이용 <br>항목</h2>
+					<p>성명,소속,직위,<br>연락처,이메일</p>
 				</div>
 				<div class="content">
-					<h2>수집ㆍ이용 목적</h2>
-					<p>컨퍼런스 사전등록 확인</p>
+					<h2>수집ㆍ이용 <br>목적</h2>
+					<p>컨퍼런스 <br>사전등록 확인</p>
 				</div>
 				<div class="right">
 					<h2>보유기간</h2>
-					<p>2018.10.24 (개소식후 2주) </p>
+					<p>2018.10.24 <br>(개소식후 2주) </p>
 				</div>
 			</div>
 
@@ -52,7 +52,7 @@
 				<label class="labelCheck" for="use_consent"> 
 					<input type="checkbox" id="use_consent" class="inputChecking" name="use" value="" /> 
 					<span class="checkmark"></span> 
-					<span>위와 같이 개인정보를 수집ㆍ이용하는데 동의합니다.</span>
+					<p>위와 같이 개인정보를 수집ㆍ이용하는데 동의합니다.</p>
 				</label>
 			</div>
 

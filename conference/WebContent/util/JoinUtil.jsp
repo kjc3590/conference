@@ -30,7 +30,7 @@
 %>
 		<script>
 			alert("신청 성공");
-			location.href='/conference.jsp';
+			location.href='/osong/conference.jsp';
 		</script>	
 <%
 	}catch(Exception ex){

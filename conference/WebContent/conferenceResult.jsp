@@ -4,11 +4,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/assets/css/bootstrap.css" />
+<link rel="stylesheet" href="/osong/assets/css/bootstrap.css" />
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-<link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/responsive.css" />
+<link rel="stylesheet" href="/osong/assets/css/style.css" />
+<link rel="stylesheet" href="/osong/assets/css/responsive.css" />
 
 </head>
 <body>
@@ -17,7 +17,7 @@
 	<section class="includeTitle">
 		<div class="container">
 			<div class="imgWrapper">
-				<img class="" src="/assets/images/title.png">
+				<img class="" src="/osong/assets/images/title.png">
 			</div>
 
 		</div>
@@ -82,7 +82,7 @@
 
 			<h2 class="titleH">오시는 길</h2>
 			<div class="imgWrapper">
-				<img class="" src="/assets/images/map.png">
+				<img class="" src="/osong/assets/images/map.png">
 			</div>
 
 			<p class="mapInfo">
@@ -99,7 +99,7 @@
 	<footer>
 		<div class="container">
 		<div class="footerLeft">
-			<img class="" src="/assets/images/footerLogo.png">
+			<img class="" src="/osong/assets/images/footerLogo.png">
 			<p>
 				서울시 강남구 논현로 76길, 꿈희망미래빌딩 4층 / 사업자등록번호 : 220-82-09620<br>대표번호 :
 				02-563-2919 / 팩스 : 02- 568-2952/ E-mail : fineinsight@bestian.kr<br>Copyright
@@ -115,8 +115,8 @@
 
 
 
-	<script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/bootstrap.min.js"></script>
 
 
 

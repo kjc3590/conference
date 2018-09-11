@@ -6,18 +6,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/assets/css/bootstrap.css" />
+<title>베스티안 메디클러스터 개원식 결과</title>
+<link rel="stylesheet" href="/osong/assets/css/bootstrap.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-<link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/responsive.css" />
+<link rel="stylesheet" href="/osong/assets/css/style.css" />
+<link rel="stylesheet" href="/osong/assets/css/responsive.css" />
 </head>
 <body>
 
 	<section class="includeTitle">
 		<div class="container">
 			<div class="imgWrapper">
-				<img class="" src="/assets/images/title.png">
+				<img class="" src="/osong/assets/images/title.png">
 			</div>
 		</div>
 	</section>
@@ -55,13 +55,13 @@
 			</div>
 
 			<div class="buttonWrapper">
-				<button type="button" onclick="location.href='/conference.jsp' ">확인</button>
+				<button type="button" onclick="location.href='/osong/conference.jsp' ">확인</button>
 			</div>
 
 
 			<h2 class="titleH">오시는 길</h2>
 			<div class="imgWrapper">
-				<img class="" src="/assets/images/map.png">
+				<img class="" src="/osong/assets/images/map.png">
 			</div>
 
 			<p class="mapInfo">
@@ -92,7 +92,7 @@
 			</div>
 
 			<div class="buttonWrapper big">
-				<button type="button" onclick="location.href='/conferenceInsert.jsp'">컨퍼런스 사전신청하기</button>
+				<button type="button" onclick="location.href='/osong/conferenceInsert.jsp'">컨퍼런스 사전신청하기</button>
 			</div>
 <%		
 	}
@@ -105,7 +105,7 @@
 	<footer>
 		<div class="container">
 		<div class="footerLeft">
-			<img class="" src="/assets/images/footerLogo.png">
+			<img class="" src="/osong/assets/images/footerLogo.png">
 			<p>
 				서울시 강남구 논현로 76길, 꿈희망미래빌딩 4층 / 사업자등록번호 : 220-82-09620<br>대표번호 :
 				02-563-2919 / 팩스 : 02- 568-2952/ E-mail : fineinsight@bestian.kr<br>Copyright
@@ -116,8 +116,8 @@
 
 	</footer>
 	
-	<script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -4,23 +4,23 @@
 <html lang="UTF-8">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/assets/css/bootstrap.css" />
+<title>베스티안 메디클러스터 개원식 </title>
+<link rel="stylesheet" href="/osong/assets/css/bootstrap.css" />
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-<link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/responsive.css" />
+<link rel="stylesheet" href="/osong/assets/css/style.css" />
+<link rel="stylesheet" href="/osong/assets/css/responsive.css" />
 
 </head>
 <body>
 	<section class="invitation">
 		<div class="container">
 			<div class="title">
-				<img src="/assets/images/title.png">
+				<img src="/osong/assets/images/title.png">
 			</div>
 
 			<div class="mainContent">
-				<img src="/assets/images/invitation-main.png">
+				<img src="/osong/assets/images/invitation-main.png">
 			</div>
 		</div>
 	</section>
@@ -32,13 +32,13 @@
 				베스티안재단이 충북 오송 첨단의료산업복합단지에 베스티안 메디클러스터를 10월 4일 개원합니다.<br> 글로벌
 				스탠다드 시설을 갖춘 중증화상센터, 신약개발의 든든한 파트너 첨단임상시험센터<br> 오송주민의 건강을 책임지는
 				종합병원과 건강검진센터<br> 병원중심의 바이오IT 융합 클러스터를 구축하는 베스티안 재단!<br> 이곳
-				충북 오송에서 새로운 시대를 시작하고자 합니다.<br> 개원식과 함께 '병원중심 BTㆍ IT 융합컨퍼런스'를
-				개최하고자 하오니<br> 바쁘시더라도 참석하시어 자리를 빛내주시기 바랍니다. <span>재단법인
+				충북 오송에서 새로운 시대를 시작하고자 합니다.<br> 개원식과 함께 '병원중심 바이오ㆍIT 융합컨퍼런스'를 개최하고자 하오니<br>
+				바쁘시더라도 참석하시어 자리를 빛내주시기 바랍니다. <span>재단법인
 					베스티안재단</span>
 			</p>
 			<p class="with767">재단법인
 					베스티안재단</p>
-			<img class="rightDirection" src="/assets/images/signGroup.png">
+			<img class="rightDirection" src="/osong/assets/images/signGroup.png">
 
 		</div>
 	</section>
@@ -50,7 +50,7 @@
 
 			<div class="infoSet type1">
 			
-				<div class="divLeft"><p>일시: <br>2018년 10월 4일 목요일 오전 11시</p><p>일시: <br> 2018년 10월 4일 목요일 오전 11시</p></div>
+				<div class="divLeft"><p>일시: <br>2018년 10월 4일 목요일 오전 11시</p><p>장소: <br> 베스티안병원 7층 대강당(오송) </p></div>
 				<div class="divRight"><span>축하로 보내주시는 화환대신 쌀 화한을 보내<br>주시면 어려운 이웃과 함께 하겠습니다.<br>(사랑의나눔쌀 청주지사 1855-3141)</span></div>
 			</div>
 			
@@ -83,14 +83,14 @@
 	<div class="container">
 		<h2 class="titleH">병원중심 바이오ㆍIT 융합 컨퍼런스</h2>
 		<div class="imgWrapper">
-		<img class="" src="/assets/images/map.png">
+		<img class="" src="/osong/assets/images/map.png">
 		</div>
 		
 		<p><b>주소 :</b><br>충청북도 청주시 흥덕구 오송읍 연제리 682-1 베스티안병원 7층 대강당</p>
 		<p><b>셔틀버스 운영 안내 :</b><br>8시 30분 베스티안 서울병원(한티역 근처) ~ 오송병원 왕복 운영(9.20일까지 사전신청자에 한함) </p>
 		
 		<div class="buttonWrapper">
-			<button type="button" onclick="location.href='/conferenceInsert.jsp' ">컨퍼런스 사전신청하기</button>
+			<button type="button" onclick="location.href='/osong/conferenceInsert.jsp' ">컨퍼런스 사전신청하기</button>
 		</div>
 	</div>
 	</section>
@@ -121,7 +121,7 @@
 		<footer>
 		<div class="container">
 		<div class="footerLeft">
-			<img class="" src="/assets/images/footerLogo.png">
+			<img class="" src="/osong/assets/images/footerLogo.png">
 			<p>
 				서울시 강남구 논현로 76길, 꿈희망미래빌딩 4층 / 사업자등록번호 : 220-82-09620<br>대표번호 :
 				02-563-2919 / 팩스 : 02- 568-2952/ E-mail : fineinsight@bestian.kr<br>Copyright
@@ -132,9 +132,9 @@
 
 	</footer>
 
-	<script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/check.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="/osong/assets/js/bootstrap.min.js"></script>
+	<script src="/osong/assets/js/check.js"></script>
 
 	<script>
 		 $('#submit').on('click', function(){
@@ -153,7 +153,7 @@
 				return false;
 			}
 			
-			$("#frm").attr("action", "/util/confirmUtil.jsp").submit();
+			$("#frm").attr("action", "/osong/util/confirmUtil.jsp").submit();
 		});
 	</script>
 

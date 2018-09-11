@@ -14,8 +14,8 @@
 		<input type="submit" value="전송">
 	</form>
 	
-	<script src="assets/js/jquery-3.3.1.js"></script>
-	<script src="assets/js/check.js"></script>
+	<script src="/osong/assets/js/jquery-3.3.1.js"></script>
+	<script src="/osong/assets/js/check.js"></script>
 	
 	<script>
 	 $('#submit').on('click', function(){
@@ -39,7 +39,7 @@
 			return false;
 		}
 		
-		$("#frm").attr("action", "/util/confirmUtil.jsp").submit();
+		$("#frm").attr("action", "/osong/util/confirmUtil.jsp").submit();
 	});
 	</script>
 

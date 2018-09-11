@@ -18,8 +18,8 @@
 	
 	<input id="submit" type="button" value="전송">
 	
-	<script src="assets/js/jquery-3.3.1.js"></script>
-	<script src="assets/js/check.js"></script>
+	<script src="/osong/assets/js/jquery-3.3.1.js"></script>
+	<script src="/osong/assets/js/check.js"></script>
 	
 	<script>
 
@@ -65,7 +65,7 @@
 			return false;
 		}
 		
-		$("#frm").attr("action", "/util/JoinUtil.jsp").submit();
+		$("#frm").attr("action", "/osong/util/JoinUtil.jsp").submit();
 	});
 	</script>
 	

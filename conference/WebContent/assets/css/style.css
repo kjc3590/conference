@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
@@ -814,3 +814,6 @@ footer {
 	font-weight:450;
 }
 
+section.result {
+    min-height: 635px;
+}

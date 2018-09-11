@@ -160,15 +160,14 @@ section.infomation .container  h2.titleH {
 	float: left;
 	width: 150px;
 }
-
-.type2 .divLeft p:first-of-type {
+.type2 h5{
 	font-weight:bold;
 	color: #8a8a8a;
 	font-size: 18.5px;
 	margin-bottom: 12.5px;
 }
 
-.type2 .divLeft p:last-of-type {
+.type2 .divLeft p.date {
 	font-size: 14.5px;
 }
 .type2 .divContent.width504 {

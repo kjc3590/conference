@@ -6,6 +6,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="베스티안 메디클러스터 개원식">
+<meta name="author" content="베스티안 메디클러스터 개원식">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta property="og:title" content="베스티안 메디클러스터 개원식">
+<meta property="og:description" content="베스티안 메디클러스터 개원식">
+<meta property="og:image" content="http://www.fineinsight.kr/upload/conference.png">
+<meta property="og:url" content="http://fineinsight.kr/osong/conference.jsp">
 <title>베스티안 메디클러스터 개원식 결과</title>
 <link rel="stylesheet" href="/osong/assets/css/bootstrap.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">

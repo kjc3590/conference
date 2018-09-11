@@ -92,6 +92,15 @@
 		font-size:22px;
 	}
 	
+	.type2 .divLeft p.date {
+		
+	}
+	
+	.type2 .divLeft p.date:last-of-type {
+		
+	}
+	
+	
 	section.ceo p {
 		font-size:15.5px;
 	}

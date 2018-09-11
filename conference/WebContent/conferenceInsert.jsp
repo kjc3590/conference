@@ -95,7 +95,7 @@
 
 		<div class="buttonWrapper double">
 			<button id="submit" type="button">확인</button>
-			<button id="cancle" type="button">취소</button>
+			<button id="cancle" type="button" onclick="location.href = '/conference.jsp' ">취소</button>
 		</div>
 
 	</section>
@@ -121,7 +121,6 @@
 		var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;	
 		 $('#submit').on('click', function(){
 			 
-
 			 var use_consent = $('#use_consent').prop("checked");
 			 
 			 if(!use_consent){

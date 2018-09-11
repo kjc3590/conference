@@ -188,7 +188,7 @@ section.map p b{margin-right: 5px;font-weight: bold;}
 
 .buttonWrapper {width: 300px;margin: 75px auto;}
 
-.buttonWrapper button {width: 100%;padding: 15px;background: #f7ce5a;border: none;border-radius: 21px;font-size: 21px;}
+.buttonWrapper button {width: 100%;padding: 15px;background: #f7ce5a;border: none;border-radius: 21px;font-size: 21px;cursor:  pointer;}
 
 .buttonWrapper.double  {
 	text-align: center;

@@ -20,8 +20,6 @@
 	<script>
 	 $('#submit').on('click', function(){
 		 
-		 console.log("클릭 : 클릭")
-		 		 
 		 var confe_name = $('#confe_name').val();
 		 var confe_phone = $('#confe_phone').val();
 		 

@@ -39,7 +39,7 @@
 		
 %>
 			<h2 class="titleH center">
-				컨퍼런스 <b>사전신청</b>이<b>완료</b>되었습니다.
+				컨퍼런스 <b>사전신청</b>이 <b>완료</b> 되었습니다.
 			</h2>
 
 			<div class="formLow">
@@ -55,7 +55,7 @@
 			</div>
 
 			<div class="buttonWrapper">
-				<button type="button">확인</button>
+				<button type="button" onclick="location.href='/conference.jsp' ">확인</button>
 			</div>
 
 
@@ -92,7 +92,7 @@
 			</div>
 
 			<div class="buttonWrapper big">
-				<button type="button">컨퍼런스 사전신청하기</button>
+				<button type="button" onclick="location.href='/conferenceInsert.jsp'">컨퍼런스 사전신청하기</button>
 			</div>
 <%		
 	}

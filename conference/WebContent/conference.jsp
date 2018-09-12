@@ -9,8 +9,10 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <meta property="og:title" content="베스티안 메디클러스터 개원식">
 <meta property="og:description" content="베스티안 메디클러스터 개원식">
-<meta property="og:image" content="http://www.fineinsight.kr/upload/conference.png">
-<meta property="og:url" content="http://fineinsight.kr/osong/conference.jsp">
+<meta property="og:image"
+	content="http://www.fineinsight.kr/upload/conference.png">
+<meta property="og:url"
+	content="http://fineinsight.kr/osong/conference.jsp">
 <title>베스티안 메디클러스터 개원식</title>
 <link rel="stylesheet" href="/osong/assets/css/bootstrap.css" />
 <link rel="stylesheet"
@@ -20,6 +22,11 @@
 
 </head>
 <body>
+	<section class="background">
+		<div class="backgroundWrapper">
+			<img src="/osong/assets/images/background.png">
+		</div>
+	</section>
 	<section class="invitation">
 		<div class="container">
 			<div class="title">
@@ -69,6 +76,21 @@
 						청주지사 1855-3141)
 					</span>
 				</div>
+				<div class="wrapperP">
+					<p class="both">
+						<b>주소 :</b><br>충청북도 청주시 흥덕구 오송읍 연제리 682-1 베스티안병원 7층 대강당
+					</p>
+					<p class="both">
+						<b>셔틀버스 운영 안내 :</b><br>8시 30분 베스티안 서울병원(한티역 근처) ~ 오송병원 왕복
+						운영(9.20일까지 사전신청자에 한함)
+					</p>
+				</div>
+				<div class="buttonWrapper">
+					<button type="button"
+						onclick="location.href='/osong/conferenceInsert.jsp' ">컨퍼런스
+						사전신청하기</button>
+				</div>
+
 			</div>
 
 			<h2 class="titleH">병원중심 바이오ㆍIT 융합 컨퍼런스</h2>
@@ -102,12 +124,25 @@
 						<span>PCG중앙연구소</span><br>이정숙 박사
 					</p>
 				</div>
-				<div class="divContent width504">
-					<p>1. 화상감염업 유발 세균 3종 동시검출용 real time PCR kit의 개발</p>
-					<p>2. 의료진과 특허전문가 협업을 통한 의료기기개발</p>
-					<p>3. 화상환자를 위한 압박의류 기술개발 및 상용화</p>
-					<p>4. 고성능 Sliver Dressing개발</p>
+				<div class="divRight width767">
+					<p>
+						<span>13:00 ~ 13:25</span> <br>
+						<span>SFC</span><br>한상훈 박사
+					</p>
+					<p>
+						<span>13:25 ~ 13:50</span> <br> <span>인비전특허법인</span><br>장기석
+						변리사
+					</p>
+					<p>
+						<span>13:50 ~ 14:15</span> <br> <span>소프트로닉스</span><br>유재흥
+						대표
+					</p>
+					<p>
+						<span>14:15 ~ 14:40</span> <br> <span>PCG중앙연구소</span><br>이정숙
+						박사
+					</p>
 				</div>
+
 			</div>
 
 			<div class="infoSet type2">
@@ -138,14 +173,28 @@
 						<span>아크릴</span><br>박외진 대표
 					</p>
 				</div>
-				<div class="divContent width504">
-					<p>1. ICT 발전으로 인한 새로운 의료데이터의 부각</p>
-					<p>2. 블록체인과 개인건강기록</p>
-					<p>3. 화상,인공지능,빅데이터</p>
-					<p>4. 공감형 의료 챗봇 기술</p>
+				<div class="divRight width767">
+					<p>
+						<span>15:00 ~ 15:25</span> <br>
+						<span>성균관대학교 의과대학</span><br>신수용 교수
+					</p>
+					<p>
+						<span>15:25 ~ 15:50</span> <br> <span>메디블록</span><br>이은솔 대표
+					</p>
+					<p>
+						<span>15:50 ~ 16:15</span> <br> <span>베스티안병원</span><br>김종대 과장
+						
+					</p>
+					<p>
+						<span>16:15 ~ 16:40</span> <br> <span>아크릴</span><br>박외진 대표
+						
+					</p>
 				</div>
 
+
 			</div>
+
+
 
 			<p class="join">
 				문의 및 신청 :<br> 070-7603-1954, 010-9949-0296,
@@ -154,7 +203,7 @@
 
 		</div>
 	</section>
-	<section class="map">
+	<!-- <section class="map">
 
 
 
@@ -172,13 +221,9 @@
 				운영(9.20일까지 사전신청자에 한함)
 			</p>
 
-			<div class="buttonWrapper">
-				<button type="button"
-					onclick="location.href='/osong/conferenceInsert.jsp' ">컨퍼런스
-					사전신청하기</button>
-			</div>
+			
 		</div>
-	</section>
+	</section> -->
 
 	<section class="check">
 

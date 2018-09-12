@@ -69,7 +69,25 @@ section.invitation .container .mainContent img {
 	
 }
 
+	.backgroundWrapper {
+		display:none;
+	}
 
+section.background {
+	padding:0;	
+}
+
+
+section.background .backgroundWrapper {
+
+	
+}
+
+section.background .backgroundWrapper img {
+	width:100%;
+	height:auto;
+	
+}
 section.ceo {
 	background: whitesmoke;
 }
@@ -79,6 +97,7 @@ section.ceo h2 {
 	color: #8a8a8a;
 	margin-bottom: 25px;
 }
+
 
 section.ceo p {
 	font-size: 18.5px;
@@ -117,9 +136,7 @@ section.infomation .container .infoSet.type2 {
 
 }
 
-	.type2 .divRight p br {
-		display:none;
-	}
+	
 
 section.infomation .container  h2.titleH {
 	padding: 0px 12.5px 23px 12.5px;
@@ -151,6 +168,10 @@ section.infomation .container  h2.titleH {
 
 }
 
+.type2 .divRight.width767 {
+	display:none;	
+}
+
 .infoSet span {
 	line-height: 1.5;
 }
@@ -162,9 +183,9 @@ section.infomation .container  h2.titleH {
 }
 .type2 h5{
 	font-weight:bold;
-	color: #8a8a8a;
+	color: #686868;
 	font-size: 18.5px;
-	margin-bottom: 12.5px;
+	margin-bottom: 18.5px;
 }
 
 .type2 .divLeft p.date {
@@ -191,6 +212,12 @@ section.infomation .container  h2.titleH {
 	section.result p.mapInfo br {
 		display:none;
 	}
+	
+	 .type1 p.both br {
+	 	display:none;
+	 }
+
+	
 
 p.join br {
 	display:none;	
@@ -222,7 +249,19 @@ section.map {
 
 
 
-section.map p , section.result p.mapInfo {color: #8a8a8a;font-weight: 400;}
+.type1 .wrapperP {
+	clear:both;
+	padding-top:50px;
+	
+}
+
+.type1 .wrapperP p.both {
+	height:initial;
+	margin-bottom:6.5px;
+	
+}
+
+section.map p , section.result p.mapInfo , .type1 p.both {color: #8a8a8a;font-weight: 400;}
 
 section.map p b , section.result p.mapInfo b {margin-right: 5px;font-weight: bold;}
 
